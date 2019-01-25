@@ -1,5 +1,6 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WP Dev - In-Depth Learning Around WordpRess Development</title>
 	<?php wp_head(); ?>
 </head>
 <body>
