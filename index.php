@@ -9,7 +9,7 @@
 				<div class="col-md-4 offset-md-4">
 					<form class="signup-form bg-light">
 							<div class="form-group">
-								<h1>3 Times A Week</h1>
+								<h1>Once a Week</h1>
 								<p>An in-depth Article on WordPress development.</p>
 								<p>
 									<small>
