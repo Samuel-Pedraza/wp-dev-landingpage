@@ -1,0 +1,33 @@
+/*
+Theme Name: Landing Page Theme
+Author: Samuel Pedraza
+Description: WordPress theme for landing page
+Version: 1.0
+*/
+
+
+.hero-image {
+	height: 100%;
+	width: 100%;
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
+}
+
+.signup-form {
+	width: 500px;
+	padding: 25px;
+	margin-top: 150px;
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 550px){
+	.signup-form {
+		width: 100%;
+	}
+	.hero-image {
+		background: -webkit-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
+		background: -o-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
+		background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
+	}
+}
