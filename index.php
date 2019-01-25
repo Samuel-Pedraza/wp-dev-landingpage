@@ -13,7 +13,7 @@
 								<p>An in-depth Article on WordPress development.</p>
 								<p>
 									<small>
-										Every Monday, Wednesday and Friday morning.
+										Look for us every Monday Morning.
 									</small>
 								</p>
 							</div>
