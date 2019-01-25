@@ -13,7 +13,7 @@
 								<p>An in-depth Article on WordPress development.</p>
 								<p>
 									<small>
-										Look for us every Monday Morning.
+										Look for us every Monday morning.
 									</small>
 								</p>
 							</div>
