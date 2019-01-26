@@ -36,7 +36,7 @@
 						<h1 class="text-light headline">WP Dev</h1>
 						<h3 class="text-light pt-3 pb-3">A Blog On WordPress Development</h3>
 						<p class="text-light">WP Dev was started as an outlet in order to dive deeply into the WordPress ecosystem. We wanted to explore the components of Wordpress; including plugins, themes, frameworks around building themes, and much more. </p>
-						<a class="btn btn-primary mt-3 text-light p-3" href="<?php echo site_url(); ?>/free-theme">Download a free theme</a>
+						<a class="btn btn-primary mt-3 text-light p-3" href="<?php echo site_url(); ?>/themes">Download a free theme</a>
 					</div>
 				</div>
 				<div class="col-lg-4 margin-top-150">
