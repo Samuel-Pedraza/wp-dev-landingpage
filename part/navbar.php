@@ -66,7 +66,7 @@
 								<input type="submit" class="btn btn-primary" id="signup-form-submission" value="Sign Up">
 							</div>
 							<div class="text-center border-top pt-3">
-								<a href="<?php echo site_url() ?>/newsletter">Or read the latest issue.</a>
+								<a href="<?php echo site_url() ?>/blog">Or read the latest post.</a>
 							</div>
 					</form>
 				</div>

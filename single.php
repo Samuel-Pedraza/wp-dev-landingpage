@@ -8,7 +8,7 @@
 				/* Start the Loop */
 				while ( have_posts() ) : the_post(); ?>
 				<div class="col-md-12">
-					<h1><?php the_title(); ?></h1>
+					<h1 class="pt-3 pb-3"><?php the_title(); ?></h1>
 					<p>
 						<?php the_content(); ?>
 					</p>
