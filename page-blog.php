@@ -1,4 +1,6 @@
-
+<?php get_header(); ?>
+<body>
+<?php get_template_part("part/navbar-small"); ?>
 	<div class="container">
 		<?php 
 		// the query
@@ -33,3 +35,5 @@
 	    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 	<?php endif; ?>
 	</div>
+</body>
+<?php get_footer(); ?>

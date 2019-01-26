@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <body>
+	<?php get_template_part("part/navbar-small"); ?>
 	<div class="container">
 		<div class="row">
 			<?php
