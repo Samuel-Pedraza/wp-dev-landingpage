@@ -4,30 +4,64 @@ Author: Samuel Pedraza
 Description: WordPress theme for landing page
 Version: 1.0
 */
+.headline {
+	font-size: 75px;
+}
 
+.margin-top-150 {
+	margin-top: 50px;
+}
 
-.hero-image {
-	height: 100%;
-	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
-	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
+.heading-container {
+	width: 75%;
+	margin: auto;
 }
 
 .signup-form {
-	width: 500px;
+	width: 75%;
+	margin: auto;
 	padding: 25px;
-	margin-top: 150px;
 	border-radius: 15px;
 }
 
-@media screen and (max-width: 550px){
-	.signup-form {
-		width: 100%;
-	}
+.hero-image {
+	height: 1350px;
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
+}
+
+.dropdown-menu-position {
+	top: 55px;
+	left: 210px;
+}
+
+@media screen and (min-width: 992px){
+
 	.hero-image {
-		background: -webkit-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
-		background: -o-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
-		background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat center;
+		height: 750px;
+		width: 100%;
+		background: -webkit-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
+		background: -o-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
+		background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/laptopcode.jpg") no-repeat left;
 	}
+
+	.signup-form {
+		padding: 25px;
+		border-radius: 15px;
+	}
+
+	.margin-top-150 {
+		margin-top: 75px;
+	}
+
+	.container-max-width {
+		max-width: 1800px;
+	}
+
+	.dropdown-menu-position {
+		top: 55px !important;
+		left: 210px !important;
+	}
+
 }

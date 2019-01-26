@@ -39,10 +39,11 @@ function insert_data_into_database(){
 	if (isset($_POST['action']) && $_POST['action'] == "insert_into_db") {
 		$name = $_POST["name"];
 		$email = $_POST["email_address"];
+		$select = $_POST["select_learning"];
 		$timestamp = date("Y-m-d h:i:sa");
 
 		global $wpdb;
-		$wpdb->insert("wp_landing_page_email", array('name' => $name, 'email' => $email, 'timestamp' => $timestamp));
+		$wpdb->insert("wp_landing_page_email", array('name' => $name, 'email' => $email, 'timestamp' => $timestamp, 'interest' => $select));
 
 		echo "Correct";
 		die();

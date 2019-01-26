@@ -5,6 +5,7 @@ jQuery(document).ready(function(){
 		var data = {
 			email_address: document.getElementsByName("email_address")[0].value,
 			name: document.getElementsByName("name")[0].value,
+			select_learning: document.getElementsByName("select_learning")[0].value,
 			action: "insert_into_db"
 		}
 
