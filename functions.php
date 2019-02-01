@@ -11,8 +11,9 @@ class ScriptFunctionality {
 	}
 
 	public function register_wp_styles(){
-		wp_enqueue_style("mainCSS", get_template_directory_uri() . "/style.css");
 		wp_enqueue_style("bootstrapCSS", "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
+		wp_enqueue_style("googleFontLora", "https://fonts.googleapis.com/css?family=Lora");
+		wp_enqueue_style("mainCSS", get_template_directory_uri() . "/style.css");
 	}
 
 	public function register_wp_scripts(){

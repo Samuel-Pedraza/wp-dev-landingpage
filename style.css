@@ -80,3 +80,29 @@ Version: 1.0
 	}
 
 }
+
+
+/*font specific code*/
+html, body, form, fieldset, table, tr, td, img {
+    margin: 0;
+    padding: 0;
+    font:'Lora', serif;
+}
+
+input, button, select, textarea, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+/* rest of your styles; like: */
+body {
+    font-family: 'Lora', serif;
+}
+
+p {
+	padding-top: 29px;
+	font-size: 20px;
+	line-height: 1.58;
+}
