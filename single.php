@@ -7,12 +7,11 @@
 
 				/* Start the Loop */
 				while ( have_posts() ) : the_post(); ?>
-				<div class="col-md-12">
-					<h1 class="pt-3 pb-3"><?php the_title(); ?></h1>
-					<p>
+					<div class="col-md-8 offset-md-2 pt-5 mt-5">
+						<h1 class="pt-5 pb-5"><?php the_title(); ?></h1>
 						<?php the_content(); ?>
-					</p>
-				</div><?php  endwhile; ?>
+					</div>
+				<?php  endwhile; ?>
 		</div>
 	</div>
 </body>
