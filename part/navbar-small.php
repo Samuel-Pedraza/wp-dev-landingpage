@@ -14,14 +14,9 @@
                 <a class="nav-link text-light" href="/blog">Blog</a>
               </li>
               <li class="nav-item p-3">
-                <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Themes
+                <a class="nav-link text-light" href="/products">
+                  Products
                 </a>
-                <div class="dropdown-menu dropdown-menu-position bg-transparent" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item text-light" href="/themes#bootstrap">Bootstrap</a>
-                  <a class="dropdown-item text-light" href="/themes#bulma">Bulma</a>
-                  <a class="dropdown-item text-light" href="/themes#foundation">Foundation</a>
-                </div>
               </li>
             </ul>
         </div>

@@ -14,14 +14,9 @@
 				    <a class="nav-link text-light" href="/blog">Blog</a>
 				  </li>
 				  <li class="nav-item p-3">
-				    <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				      Themes
+				    <a class="nav-link text-light" href="/products">
+				      Products
 				    </a>
-				    <div class="dropdown-menu dropdown-menu-position bg-transparent" aria-labelledby="navbarDropdown">
-				      <a class="dropdown-item text-light" href="/themes#bootstrap">Bootstrap</a>
-				      <a class="dropdown-item text-light" href="/themes#bulma">Bulma</a>
-				      <a class="dropdown-item text-light" href="/themes#foundation">Foundation</a>
-				    </div>
 				  </li>
 				</ul>
 			</div>
@@ -32,16 +27,15 @@
 				<div class="col-lg-6 offset-lg-1 margin-top-150">
 					<div class="heading-container">
 						<h1 class="text-light headline">WP Dev</h1>
-						<h3 class="text-light pt-3 pb-3">A Blog On WordPress Development</h3>
-						<p class="text-light">WP Dev was started as an outlet in order to dive deeply into the WordPress ecosystem. We wanted to explore the components of Wordpress; including plugins, themes, frameworks around building themes, and much more. </p>
-						<a class="btn btn-primary mt-3 text-light p-3" href="<?php echo site_url(); ?>/themes">Download a free theme</a>
+						<h3 class="text-light pt-3 pb-3">WP Dev was started in order to build high quality products around the WordPress ecosystem.</h3>
+						<a class="btn btn-primary mt-3 text-light p-3" href="<?php echo site_url(); ?>/products">View our Products</a>
 					</div>
 				</div>
 				<div class="col-lg-4 margin-top-150">
 					<form class="signup-form bg-light">
 							<div class="form-group">
-								<h1>Sign Up Today</h1>
-								<p>To Receive All Our Articles on WordPress</p>
+								<h1 class="p-0">Sign Up Today</h1>
+								<p class="p-0" >To Receive All Our Articles on WordPress</p>
 							</div>
 							<div class="form-group">
 								<label>Name</label>
