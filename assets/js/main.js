@@ -19,3 +19,24 @@ jQuery(document).ready(function(){
 		}
 	})
 })
+
+
+jQuery(document).ready(function(){
+	jQuery("#footer-form-submission").click(function(event){
+		event.preventDefault();
+		
+		var data = {
+			email_address: document.getElementsByName("email_address")[0].value,
+			action: "insert_into_wp_footer_email"
+		}
+
+		if(document.getElementsByName("email_address")[0].value.trim() === "" || document.getElementsByName("email_address")[0].value === null || !document.getElementsByName("email_address")[0].value.includes("@")){
+			jQuery("#footer-form-submission").val("Try again.");
+		} else {
+			jQuery.post(window.location.origin + "/wp-admin/admin-ajax.php", data, function(response){
+				jQuery("#footer-form-submission").val("Success!");
+				jQuery("#footer-form-submission").prop("disabled", true);
+			});
+		}
+	})
+})

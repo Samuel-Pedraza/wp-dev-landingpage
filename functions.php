@@ -53,3 +53,19 @@ function insert_data_into_database(){
 
 add_action( 'wp_ajax_insert_into_db', 'insert_data_into_database' );
 add_action( 'wp_ajax_nopriv_insert_into_db', 'insert_data_into_database' );
+
+function capture_footer_email_leads(){
+	if (isset($_POST['action']) && $_POST['action'] == "insert_into_wp_footer_email") {
+		$email = $_POST["email_address"];
+		$timestamp = date("Y-m-d h:i:sa");
+
+		global $wpdb;
+		$wpdb->insert("wp_footer_email_capture", array('email' => $email, 'timestamp' => $timestamp));
+
+		echo "Correct";
+		die();
+	}
+}
+
+add_action( 'wp_ajax_insert_into_wp_footer_email', 'capture_footer_email_leads' );
+add_action( 'wp_ajax_nopriv_insert_into_wp_footer_email', 'capture_footer_email_leads' );
