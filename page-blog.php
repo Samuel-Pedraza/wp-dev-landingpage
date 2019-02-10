@@ -4,7 +4,7 @@
 	<div class="container">
 		<?php 
 		// the query
-		$wpb_all_query = new WP_Query(array('category_name' => 'blog')); ?>
+		$wpb_all_query = new WP_Query(array('orderby' => 'publish_date', 'order' => 'ASC', 'category_name' => 'blog')); ?>
 		 
 		<?php if ( $wpb_all_query->have_posts() ) : ?>
 	    <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
