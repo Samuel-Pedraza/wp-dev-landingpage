@@ -13,11 +13,6 @@
 				  <li class="nav-item p-3">
 				    <a class="nav-link text-light" href="/blog">Blog</a>
 				  </li>
-				  <li class="nav-item p-3">
-				    <a class="nav-link text-light" href="/products">
-				      Products
-				    </a>
-				  </li>
 				</ul>
 			</div>
 			</nav>
@@ -27,8 +22,7 @@
 				<div class="col-lg-6 offset-lg-1 margin-top-150">
 					<div class="heading-container">
 						<h1 class="text-light headline">WP Dev</h1>
-						<h3 class="text-light pt-3 pb-3">WP Dev was started in order to build high quality products around the WordPress ecosystem.</h3>
-						<a class="btn btn-primary mt-3 text-light p-3" href="<?php echo site_url(); ?>/products">View our Products</a>
+						<h3 class="text-light pt-3 pb-3">A blog all about WordPress development and doing cool stuff with WordPress.</h3>
 					</div>
 				</div>
 				<div class="col-lg-4 margin-top-150">

@@ -13,11 +13,6 @@
               <li class="nav-item p-3">
                 <a class="nav-link text-light" href="/blog">Blog</a>
               </li>
-              <li class="nav-item p-3">
-                <a class="nav-link text-light" href="/products">
-                  Products
-                </a>
-              </li>
             </ul>
         </div>
         </nav>

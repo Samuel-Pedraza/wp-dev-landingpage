@@ -14,6 +14,5 @@
 				<?php  endwhile; ?>
 		</div>
 	</div>
-	<?php  get_template_part("part/footer-form"); ?>
 </body>
 <?php get_footer(); ?>	
