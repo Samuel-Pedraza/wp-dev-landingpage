@@ -6,7 +6,7 @@ Version: 1.0
 */
 
 .headline {
-	font-size: 75px;
+	font-size: 35px;
 }
 
 .margin-top-150 {
@@ -80,7 +80,7 @@ Version: 1.0
 	}
 
 	.headline {
-		font-size: 35px;
+		font-size: 75px;
 	}
 
 }
