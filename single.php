@@ -8,7 +8,6 @@
 				/* Start the Loop */
 				while ( have_posts() ) : the_post(); ?>
 					<div class="col-md-8 offset-md-2 pt-5">
-						<h1><?php the_title(); ?></h1>
 						<?php the_content(); ?>
 					</div>
 				<?php  endwhile; ?>

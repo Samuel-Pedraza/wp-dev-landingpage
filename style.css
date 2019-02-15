@@ -79,6 +79,10 @@ Version: 1.0
 		left: 210px !important;
 	}
 
+	.headline {
+		font-size: 35px;
+	}
+
 }
 
 

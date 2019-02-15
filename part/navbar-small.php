@@ -17,7 +17,7 @@
         </div>
         </nav>
     </div>
-    <h3 class="text-center text-light headline pt-5">
+    <h1 class="text-center text-light headline pt-5">
       <?php the_title(); ?>
-    </h3>
+    </h1>
 </div>
